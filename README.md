@@ -7,6 +7,7 @@ There is no roadmap yet, but I hope to add more tools in the future.
 # Notes
 
 ## Adjustment blend
+Quick tutorial (including plugin integration) https://youtu.be/Oj-O8yWBRuM
 For the script to run properly you should have IK bones in the world-like hierarchy. Default UE rigs always bake body_offset_ctrl movement to the ctrl. From my experience it's better when used only for offseting character (forward solve), but when baking animation it should stay zeroed, without affecting poses every frame. If it's zeroed all the IK will blend as expected with the adjustment blend.
 
 # Special credits
